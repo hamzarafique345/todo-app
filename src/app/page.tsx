@@ -1,9 +1,14 @@
-import Image from "next/image";
+
+
+import ToduList from "@/components/ToduList";
+
 
 export default function Home() {
   return (
  <div>
   
+  <ToduList/>
+
  </div>
   );
 }
